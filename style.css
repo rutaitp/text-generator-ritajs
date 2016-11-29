@@ -1,0 +1,21 @@
+#talk {
+	height: 100px;
+	width: 400px;
+}
+.text {
+    padding: 12px;
+    background-color: #EEE;
+    float:right;
+    width: 40%;
+    font-family: Helvetica;
+    font-size: 11pt;
+    margin-right: 5%;
+    margin-top: 4%;
+#original {
+    float:left;
+    width: 37%;
+    background-color: #F0B4E8;
+    margin-top: 4%;
+    font-family: Helvetica;
+    font-size: 11pt;
+}
