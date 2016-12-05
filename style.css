@@ -1,21 +1,44 @@
-#talk {
-	height: 100px;
-	width: 400px;
+body {
+    padding: 20px;
+}
+
+#textArea {
+	height: 500px;
+	width: 600px;
+    font-family: Helvetica;
+    font-size:14pt;
+    color: #696969;
+    opacity: 0.8;
+    border: none;
 }
 .text {
-    padding: 12px;
+    padding: 20px;
     background-color: #EEE;
     float:right;
     width: 40%;
     font-family: Helvetica;
-    font-size: 11pt;
+    font-size: 14pt;
+    color: #696969;
     margin-right: 5%;
-    margin-top: 4%;
-#original {
-    float:left;
-    width: 37%;
-    background-color: #F0B4E8;
-    margin-top: 4%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #696969;
+}
+#textAreaP{
+    width: 600px;
+    height: 500px;
+    display: inline;
+}
+#credits {
+    display: inline;
+    color: white;
+    font-style: italic;
+}
+#title {
+    color: white;
     font-family: Helvetica;
-    font-size: 11pt;
+}
+#description {
+    color: white;
+    font-family: Helvetica Neue Light;
 }

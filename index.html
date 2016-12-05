@@ -10,32 +10,23 @@
     <script src="libraries/rita-full.js" type="text/javascript"></script>
     <script src="https://cdn.socket.io/socket.io-1.4.5.js"></script>
 
-    <script src="sketch_rita.js" type="text/javascript"></script>
+    <script src="sketch4.js" type="text/javascript"></script>
     <link type='text/css' rel="stylesheet" href='style.css'></link>
-
-    <style>
-      body {
-        padding: 20px;
-      }
-
-      .text {
-        border-style: solid;
-        border-width: 1px;
-        padding: 20px;
-      }
-    </style>
 
   </head>
   <body>
 
-    <h1 id="title">Generating alternative TED Talks</h1>
+    <h1 id="title">Want to sound like a TED speaker?</h1>
 
-    <h3>Paste your talk below</h3>
+    <h3 id="description">Share your story below and choose who do you want to sound like!</h3>
 
-    <p><input id="talk" value="Paste your talk here."></p>
-    <p>
-      <button id="submit">submit</button>
+    <div id = "textAreaP"><textarea id="textArea" placeholder="..."></textarea></div>
+    <p id="buttons">
+      <button id="ken">Sound like Ken Robinson</button>
+      <button id="amy">Sound like Amy Cuddy</button>
+      <button id="simon">Sound like Simon Sinek</button>
     </p>
+    <p id="credits">Photo: TED Conference</p>
 
   </body>
 </html>
